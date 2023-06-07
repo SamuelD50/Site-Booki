@@ -45,12 +45,16 @@
 
                 <!-- A revoir -->
                 <div class="search-bar">
-                    <form>
-                        <span>
+                    <form method="get" action="">
+                        <div id="localisation">
                             <i class="fa-solid fa-location-dot" style="color: #000000"></i>
-                        </span>
-                        <input type="text" name="text" class="search" placeholder="Marseille, France">
-                        <input type="submit" name="submit" class="submit" value="Rechercher">
+                        </div>
+                        <div id="destination">
+                            <input type="text" name="destination" placeholder="Marseille, France">
+                        </div>
+                        <div id="submit-button">
+                            <button><span id="researchDestination">Rechercher</span><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                        </div>
                     </form>
                 </div>
                 
@@ -61,14 +65,16 @@
                     <button class="btn" onclick="filterSelection('familial')">
                         <i class="fa-solid fa-person" style="color: #0065FC"></i> <span>Familial</span></button>
                     <button class="btn" onclick="filterSelection('romantique')">
-                        <i class="fa-solid fa-heart" style="color: #0065FC;"></i><span>Romantique</span></button>
+                        <i class="fa-solid fa-heart" style="color: #0065FC;"></i> <span>Romantique</span></button>
                     <button class="btn" onclick="filterSelection('nos-pépites')">
-                        <i class="fa-solid fa-fire" style="color: #0065FC;"></i><span>Nos pépites</span></button>
+                        <i class="fa-solid fa-fire" style="color: #0065FC;"></i> <span>Nos pépites</span></button>
                 </div>
 
                 <div class="infobar">
-                    <i class="fa-sharp fa-light fa-circle-info" style="color: #0065fc;"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
+                    <div id="information"><i class="fa-solid fa-info" style="color: #0065fc;"></i></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
+
             </div>
 
             <div class="hebergements-and-populaires">
@@ -242,43 +248,45 @@
                     </div>
                 </section>
             </div>
-            <div class="activites-a-Marseille">
+            <div class="activites-a-marseille">
                 <section class="activites">
-                    <div class="activites-Marseille">
+                    <div class="activites-title">
                         <h2 class="section-title" id="activites-a-marseille">Activités à Marseille</h2>
                     </div>
-                    <article class="card">
-                        <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                        <div class="card-content">
-                            <div class="card-txt">
+                    <div class="activites-cards"></div>
+                        <article class="card-activites">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
                                 <h3 class="card-title">Vieux-Port</h3>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                        <div class="card-content">
-                            <div class="card-txt">
-                                <h3 class="card-title">Fort de Pomègues</h3>
+                        </article>
+                        <article class="card-activites">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Fort de Pomègues</h3>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                        <div class="card-content">
-                            <div class="card-txt">
-                                <h3 class="card-title">Parc national des Calanques</h3>
+                        </article>
+                        <article class="card-activites">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Parc national des Calanques</h3>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                        <div class="card-content">
-                            <div class="card-txt">
-                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                        </article>
+                        <article class="card-activites">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
+                    </div>
                 </section>
             </div>
         </main>
