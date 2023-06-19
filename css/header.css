@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Partie logotype */
+
+.logotype img {
+    height: 19px;
+    width: auto;
+    padding: 30px 0px;
+    gap: 10px;
+}
+
+.logotype a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Partie Menu */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 68px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+nav a {
+    padding-top: 22px;
+}
+
+/* barre bleu au survol */
+
+nav a:hover {
+    border-top: solid 2px #0065FC;
+    margin: 0;
+    color: #0065FC;
+}

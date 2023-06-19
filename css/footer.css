@@ -1,0 +1,51 @@
+/* Partie footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    margin-top: 35px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 0px 20px 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+footer li {
+    margin: 15px 0px 0px 0px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+

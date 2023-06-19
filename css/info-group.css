@@ -1,0 +1,167 @@
+/* Partie Info-group */
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    padding-top: 30px;
+}
+
+/* Partie headline */
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.headline-message {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Partie search-bar */
+
+.search-bar form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Icône localisation */
+
+.localisation {
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid #F2F2F2;
+    padding: 14px 16px; 
+}
+
+.fa-location-dot {
+    padding: 1px 1px;
+    color: black;
+    text-align: center;
+}
+
+/* Formulaire */
+
+.destination input {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 13px 0px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* Bouton Rechercher */
+.search-bar button {
+    border: 1px solid #0065FC;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0px 15px 15px 0px;
+    padding: 13px 16px;
+    cursor: pointer;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.search-bar button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 15px rgb(0, 101, 252);
+}
+
+.fa-magnifying-glass {
+    color: white;
+    display: none;
+}
+
+/* Partie Filtres */
+
+.filter-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Titre */
+.filter-title {
+   font-weight: 700;
+   font-size: 18px; 
+}
+
+/* Boutons filtres */
+.filter-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.button-filter {
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 13px 22px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    flex-wrap: nowrap;
+}
+
+/* Icône filtres */
+.button-filter i {
+    margin-right: 5px;
+}
+
+.button-filter .fa-solid {
+    color: #0065FC;
+}
+
+/* Animation au survol */
+.button-filter:hover {
+    background-color: #D9D9D9;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 3px 15px rgb(0, 101, 252);
+}
+
+/* Partie Infobar */
+
+.infobar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.infobar .fa-solid {
+    color: #0065FC;
+}
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 50% 50% 50% 50%;
+    padding: 5px 10px;
+}
+
+.infobar-message {
+    font-weight: 400;
+    font-size: 16;
+}

@@ -1,0 +1,36 @@
+/* Section Hébergements + Populaires */
+
+#hebergements-and-populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Communs aux 2 parties */
+
+.euro {
+    font-weight: 600;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Notes */
+
+.card-rating {
+    gap: 2px;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+
+.neutral-star {
+    color: #F2F2F2;
+}
+
+
+

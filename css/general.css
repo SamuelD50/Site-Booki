@@ -1,0 +1,30 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding: 0px 50px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* Titres */
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
