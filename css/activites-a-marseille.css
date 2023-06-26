@@ -1,5 +1,6 @@
 /* Section Activités à Marseille */
 
+
 #activites-a-marseille {
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@
 }
 
 .activites-card a {
+    display: block;
     text-decoration: none;
     cursor: pointer;
     color: black;
@@ -41,14 +43,16 @@
     width: 297.5px;
     object-fit: cover;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .activites-card .card-content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
-    padding: 20px 19px;
+    padding: 20px 18px;
     gap: 10px;
-}
+}   

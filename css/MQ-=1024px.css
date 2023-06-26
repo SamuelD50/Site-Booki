@@ -1,0 +1,55 @@
+/* Version tablette */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+/* Section Hebergements and populaires */
+    #hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+/* Partie Hébergements à Marseille */
+    .hebergements {
+        width: auto;
+    }
+
+    .hebergements-cards-group {
+        margin: auto;
+    }
+
+    .hebergements-card {
+        width: 30%;
+    }
+
+    .image-hebergements img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+/* Partie Les plus populaires */
+    .populaires {
+        width: auto;
+    }
+
+    .populaires-card {
+        width: 30%;
+        flex-wrap: nowrap;
+    }
+
+    .populaires-cards-group {
+        flex-direction: row;
+    }
+
+    .image-populaires img {
+        height: 136px;
+        width: 96.5px;
+    }
+
+/* Section Activités à Marseille */
+    .image-activites img {
+        width: 193.5px;
+        height: 200px;
+        width: 100%;
+    } 
+
+}

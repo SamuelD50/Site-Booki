@@ -4,7 +4,8 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     background-color: #F2F2F2;
-    margin-top: 35px;
+    max-width: 1340px;
+    margin: auto;
 }
 
 footer div {
@@ -12,7 +13,7 @@ footer div {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .footer-title {
@@ -25,13 +26,16 @@ footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-ul {
     font-weight: 400;
     font-size: 16px;
     color: black;
 }
+
+/* ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+} */
 
 footer li {
     margin: 15px 0px 0px 0px;
@@ -39,6 +43,7 @@ footer li {
 
 footer a {
     text-decoration: none;
+    color: black;
 }
 
 footer a:hover {

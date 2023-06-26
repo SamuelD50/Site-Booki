@@ -7,28 +7,10 @@
 @import url(activites-a-marseille.css);
 @import url(footer.css);
 
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-
-
 /****** Media queries ***********/
-/* Tall devices (desktop, more than 1024px */
-@media screen and (min-widht:1024px) {
+/* Le code ci-dessous correspond à la version responsive uniquement */
+/* Version mobile */
+@import url(MQ-=768px.css);
 
-
-
-}
-/* Medium devices (tablets, less/equal than 1024px) */
-@media screen and (min-widht: 767.98px),  (max-width: 1024px) {
-
-
-
-
-
-}
-
-/* Small devices (phones, less than 768px) */
-@media screen and (max-width: 767.98px) {
-
-}
+/* Version tablette */
+@import url(MQ-=1024px.css);
