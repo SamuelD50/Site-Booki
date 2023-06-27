@@ -1,7 +1,7 @@
 /* Section Activités à Marseille */
 
 
-#activites-a-marseille {
+#activities-to-marseille {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -9,7 +9,7 @@
     gap: 30px;
 }
 
-.activites-cards-group {
+.activities-cards-group {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-.activites-card {
+.activities-card {
    display: flex;
    flex-direction: column;
    border-radius: 20px;
@@ -25,19 +25,19 @@
    width: 100%;
 }
 
-.activites-card:hover {
+.activities-card:hover {
     transform: scale(1.05);
     box-shadow: 0px 3px 15px rgb(0, 101, 252);
 }
 
-.activites-card a {
+.activities-card a {
     display: block;
     text-decoration: none;
     cursor: pointer;
     color: black;
 }
 
-.image-activites img {
+.activities-image img {
     border-radius: 20px 20px 0px 0px;
     height: 380px;
     width: 297.5px;
@@ -46,7 +46,7 @@
     box-sizing: border-box;
 }
 
-.activites-card .card-content {
+.activities-card .card-content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

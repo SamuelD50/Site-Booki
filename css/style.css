@@ -1,10 +1,10 @@
 @import url(general.css);
 @import url(header.css);
 @import url(info-group.css);
-@import url(hebergements-and-populaires.css);
-@import url(hebergements.css);
-@import url(populaires.css);
-@import url(activites-a-marseille.css);
+@import url(accommodation-and-popular.css);
+@import url(accommodation.css);
+@import url(popular.css);
+@import url(activities-to-marseille.css);
 @import url(footer.css);
 
 /****** Media queries ***********/

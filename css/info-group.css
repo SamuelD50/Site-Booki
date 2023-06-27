@@ -136,9 +136,8 @@ h1 {
 
 /* Animation au survol */
 .button-filter:hover {
-    background-color: #D9D9D9;
+    background-color:#DEEBFF;
     cursor: pointer;
-    transform: scale(1.05);
     box-shadow: 0px 3px 15px rgb(0, 101, 252);
 }
 
@@ -167,5 +166,5 @@ h1 {
 
 .infobar-message {
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
 }

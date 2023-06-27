@@ -1,6 +1,6 @@
 /* Partie Hébergements */
 
-.hebergements {
+.accommodation {
     background-color: #F2F2F2;
     border-radius: 15px;
     display: flex;
@@ -9,10 +9,10 @@
     flex-wrap: wrap;
     padding: 30px;
     gap: 30px;
-    width: 65%;    
+    width: 62%;    
 }
 
-.hebergements-cards-group {
+.accommodation-cards-group {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -20,10 +20,10 @@
     gap: 30px;
 }
 
-.hebergements-card {
+.accommodation-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     border: 5px solid #FFFFFF;
     overflow: hidden;
     box-sizing: border-box;
@@ -32,26 +32,26 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
-.hebergements-card a {
+.accommodation-card a {
     display: block;
     text-decoration: none;
     cursor: pointer;
     color: black;
 }
 
-.hebergements-card:hover {
+.accommodation-card:hover {
     transform: scale(1.05);
     box-shadow: 0px 3px 15px rgb(0, 101, 252);
 }
 
-.image-hebergements img {
+.accommodation-image img {
    width: 240.33px;
    height: 114px;
    object-fit: cover;
    box-sizing: border-box;
 }
 
-.hebergements-card .card-content {
+.accommodation-card .card-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,20 +60,22 @@
     box-sizing: border-box;
 }
 
-.hebergements-card .card-txt {
+.accommodation-card .card-txt {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
 
-.afficher-plus a {
+/* Afficher plus */
+
+.show-more a {
     font-weight: 700;
     font-size: 18px;
     color: black;
     text-decoration: none;
 }
 
-.afficher-plus a:hover {
+.show-more a:hover {
     cursor: pointer;
 }

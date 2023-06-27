@@ -1,13 +1,13 @@
 /* Section Hébergements + Populaires */
 
-#hebergements-and-populaires {
+#accommodation-and-popular {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
 }
 
-/* Communs aux 2 parties */
+/* Communs aux parties Hébergements à Marseille et Les plus populaires */
 
 .euro {
     font-weight: 600;
