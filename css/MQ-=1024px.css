@@ -42,10 +42,6 @@
         width: 35%;
     }
 
-    .popular-card a {
-        min-width: none;
-    }
-
     .popular-cards-group {
         flex-direction: row;
         gap: 20px;
@@ -62,6 +58,6 @@
         width: 193.5px;
         height: 200px;
         width: 100%;
-    } 
+    }
 
 }
