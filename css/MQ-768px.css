@@ -41,6 +41,10 @@ nav a:hover {
 
 /* Barre de recherche */
 
+.search-bar input {
+    width: 170px;
+}
+
 .search-bar button {
     border-radius: 15px;
 }
